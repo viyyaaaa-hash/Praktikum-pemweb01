@@ -1,0 +1,256 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+   <!-- INTERNAL CSS -->
+ <style>body {
+     font-family: 'Segoe UI', Arial, sans-serif;
+     margin: 0;
+     background-color: #fcfeff;
+     color: #222;
+ }
+
+ /* HEADER */
+ header {
+     background-color: #355485;
+     color: white;
+     text-align: center;
+     padding: 20px 0;
+     margin-top: -20;
+ }
+
+ header h1 {
+     margin: 0;
+     font-size: 28px;
+ }
+
+ /* NAV */
+ nav {
+     background-color: #4f90c6;
+     text-align: center;
+     padding: 10px 0;
+     margin-bottom: -20;
+ }
+
+ nav a {
+     color: white;
+     text-decoration: none;
+     margin: 0 15px;
+     font-weight: bold;
+ }
+
+ nav a:hover {
+     text-decoration: underline;
+ }
+
+ /* LAYOUT */
+ .container {
+     width: 90%;
+     max-width: 1100px;
+     margin: 20px auto;
+     overflow: auto;
+ }
+
+ section {
+     float: left;
+     width: 68%;
+     background-color: white;
+     border: 1px solid #ddd;
+     border-radius: 8px;
+     padding: 16px;
+     box-sizing: border-box;
+ }
+
+ aside {
+     float: right;
+     width: 28%;
+     background-color: #cbdde9;
+     border: 1px solid #bbb;
+     border-radius: 8px;
+     padding: 16px;
+     box-sizing: border-box;
+ }
+
+ h2 {
+     color: #355485;
+     margin-top: 0;
+ }
+
+ article img {
+     width: 100%;
+     border-radius: 6px;
+     margin-bottom: 10px;
+ }
+
+ /* TABEL DATA */
+ table {
+     border-collapse: collapse;
+     width: 100%;
+     margin: 12px 0;
+ }
+
+ th,
+ td {
+     border: 1px solid #ccc;
+     padding: 8px;
+     text-align: left;
+ }
+
+ th {
+     background-color: #f1f5f9;
+ }
+
+ /* IFRAME */
+ iframe {
+     width: 100%;
+     height: 250px;
+     border: 1px solid #999;
+     border-radius: 6px;
+ }
+
+ /* FOOTER */
+ footer {
+     clear: both;
+     background-color: #355485;
+     color: white;
+     text-align: center;
+     padding: 14px 0;
+     margin-top: 20px;
+ }
+
+ footer a {
+     color: #cbdde9;
+     text-decoration: none;
+ }
+
+ footer a:hover {
+     text-decoration: underline;
+ }
+
+ /* RESPONSIVE SEDIKIT */
+ @media (max-width: 768px) {
+
+     section,
+     aside {
+         float: none;
+         width: 100%;
+     }
+ }
+
+ </style>
+</head>
+<body>
+    <header id="Kembali Ke atas">
+  <h1>Portal Selviya — Berita Koding Lucu Tapi Keren 😎💻</h1>
+  <p>"Dimana bug bukan musuh, tapi guru kehidupan."</p>
+  <nav>
+    <a href="#Berita Utama">Berita Utama</a>
+    <a href="#Fakta Unik">Fakta Unik</a>
+    <a href="#Vidio & Iframe">Vidio & Iframe</a>
+    <a href="#Kontak Redaksi">Kontak Redaksi</a>
+  </nav>
+  </header>
+    <main style="padding:20px">
+    <div id="Berita Utama">
+      <section id="Berita Utama">
+        <h2>Selviya Tertangkap Basah Ngoding Jam 3 Pagi Demi Push GitHub</h2>
+        <img src="https://exampllee.vercel.app/assets/G07.gif"; alt="ini gambar"; style="border-radius:8px; width:325px; height:200px";>
+        <p><b>Jakarta, Portal Selviya</b> — Warga sekitar dikejutkan dengan suara ketika keyboard yang tak kunjung berhenti. Setelah diselidiki, ternyata sumber suara berasal dari kamar Selviya yang sedang men-deploy project-nya ke Vercel.
+        <p>"Aku cuma mau pastiin web-nya responsif sebelum tidur," ujar selviya sambil menyeruput kopi dingin yang udah cair dari jam 10 malam.</p>
+        <p>Menurut pengakuan saksi, Selviya sudah tiga malam tidak tidur gara-gara memperbaiki error <code></code>Namun akhirnya, project berhasil jalan dan langsung mendapat 5⭐ di GitHub dari teman satu kos-nya.</p>
+            <h3 style="color: purple">Fakta Koding Selviya:</h3>
+            <ul>
+              <li>Suka debugging sambil dengerin musik pop🎧</li>
+              <li>Pernah typo <em>consule.log</em> jadi <em>consola.lag</em></li>
+              <li>"Cannot read property 'undefined' of underfined" - klasik!</li>
+            </ul>
+            
+        <h3 style="color: purple">Daftar Konsumsi Lembur Selviya</h3>
+        <table>
+          <tr>
+            <th>No</th>
+            <th>Manu</th>
+            <th>Jam Konsumsi</th>
+            <th>Status</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Kopi Tubruk</td>
+            <td>22.00</td>
+            <td>Habis</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Mie Goreng Instan</td>
+            <td>00.30</td>
+            <td>Pending (kegigit error)</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Roti Sobek</td>
+            <td>02.00</td>
+            <td>Belum disentuh</td>
+          </tr>
+        </table>
+        <p> Dan inilah Motto hidupnya:</p>
+        <div id="motto">
+         <p><b>Motto?</b></p>
+        <blockquote style="border-left: #355485 solid 5px; background-color: #4884b527;">
+         <div style="padding:5px;"> Manusia takkan terus hidup jika hanya untuk menemukan.Manusia akan terus hidup karena mereka terus mencari.
+         </div>
+      </blockquote>
+      </div>
+        </p> 
+        <div id="Vidio & Iframe">
+          <section id="Vidio & Iframe">
+        <h2>Belajar HTML Langsung dari Sumbernya</h2>
+        <p>Berikut cuplikan referensi situs belajar favorit Selviya:</p>
+        <iframe class="frame" src="https://share.google/wR63khYp27U2Yi3pu" title="contoh iframe"></iframe>
+        </div>
+        </section>
+        </section>  
+        </div>
+       <aside {float:right; width: 23%; background-color: #cbdde9;border: 1px solid #bbb; borde-radius: 8px; padding: 16px; box-sizing: border-box; margin-right: 30px; margin-top: 20px;}
+      <div id="Fakta Unik">
+         <section id="Fakta Unik">
+       <h2>Fakta Unik Tentang selviya</h2> 
+       <ul>
+         <li>Ngoding pakai mode gelap bahkan di siang bolong.</li>
+         <li>Punya 7 repository bernama <em>final-final-v3.</em></li>
+          <li>Pernah rename folder jadi "fix-beneran-terakhir".</li>
+       </ul>
+       </section>
+       <h3>Jadwal kegiataan Harian</h3>
+        
+        <table>
+          <tr>
+            <th>Waktu</th>
+            <th>Kegiataan</th>
+          </tr>
+          <tr>
+            <td>09.00</td>
+            <td>Kelas pemrograman web</td>
+          </tr>
+          <tr>
+            <td>13.00</td>
+            <td>Ngopi sambil baca dokumentasi</td>
+          </tr>
+          <tr>
+            <td>21.00</td>
+            <td>Debug sampai lupa waktu</td>
+          </tr>
+        </table>
+      </div>
+        </main>
+        
+        <footer id="Kontak Redaksi">
+          Hubungi redaksi: <a href="mailto: selviyanurhuda@gmail.com"></a>
+          <br>
+          <p><a href="Kembali Ke atas">⬆️Kembali Ke atas</a></p>
+          <p>© 2025 Portal Selviya-Semua bug milik bersama🐞</p>
+        </footer>
+</body>
+</html>
